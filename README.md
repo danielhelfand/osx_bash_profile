@@ -29,3 +29,36 @@ $ example
 ```
 
 The result of the `example` command above would be to display the directory where the `example` command is being run from.
+
+### Adding Parameters to Custom Bash Commands
+
+Parameters can be added to custom Bash script commands using the syntax below:
+
+```
+# Parameter syntax
+$1
+```
+
+Adding multiple parameters can be done by incrementing the parameter number by one as shown below:
+
+```
+# First parameter
+$1
+
+# Second parameter
+$2
+```
+
+An example Bash function with parameters can be seen [here](https://github.com/danielhelfand/osx_bash_profile/blob/632d16ac4006ab6edce60c907bc305f46a936433/.bash_profile#L5) and is shown below:
+
+```
+commgrep() {
+  $1 | grep $2
+}
+```
+
+Using the custom Bash command in the example above with arguments is shown below. This illustrates how user input can be passed to the custom Bash command.
+
+```
+commgrep history docker
+```
