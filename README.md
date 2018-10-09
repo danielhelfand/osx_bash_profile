@@ -1,5 +1,5 @@
 # osx_bash_profile
-This repository contains custom OSX `.bash_profile` commands that I think are useful. Thanks to this [blog](http://www.mactricksandtips.com/2010/04/create-your-own-custom-terminal-commands.html) for helping me get started.
+This repository contains custom OSX `.bash_profile` commands that I think are useful. Thanks to this [blog](http://www.mactricksandtips.com/2010/04/create-your-own-custom-terminal-commands.html) for helping me get started. More recent, additional information on creating custom Bash commands can be found [here](https://medium.com/devnetwork/how-to-create-your-own-custom-terminal-commands-c5008782a78e).
 
 ### How to Create a Custom Bash Command
 
