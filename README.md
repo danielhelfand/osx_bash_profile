@@ -7,7 +7,9 @@ A custom bash command can be created by adding a function to your `.bash_profile
 
 After opening a new terminal window, run the command below to open the `.bash_profile`:
 
-`nano .bash_profile`
+```
+nano .bash_profile
+```
 
 Once inside the `.bash_profile`, add a function in the file with a name corresponding to the name of the custom command you would like to use. An example with a function/command named `example` is shown below:
 
