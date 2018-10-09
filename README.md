@@ -49,7 +49,7 @@ $1
 $2
 ```
 
-An example Bash function with parameters can be seen [here](https://github.com/danielhelfand/osx_bash_profile/blob/632d16ac4006ab6edce60c907bc305f46a936433/.bash_profile#L5) and is shown below:
+An example Bash function with parameters can be seen [here](https://github.com/danielhelfand/osx_bash_profile/blob/b42948adc08b13b5e406466ec3dcc8faaeff88e8/.bash_profile#L6) and is shown below:
 
 ```
 commgrep() {
